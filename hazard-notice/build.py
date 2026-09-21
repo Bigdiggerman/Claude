@@ -55,15 +55,17 @@ h1, h2, h3 { font-family:'Cormorant Garamond',Georgia,serif; color:var(--olive);
 
 /* section heads */
 .sec { font-family:'Inter'; font-size:8.4pt; font-weight:600; letter-spacing:1.9px;
-  text-transform:uppercase; color:var(--olive); margin:5.5mm 0 0;
+  text-transform:uppercase; color:var(--olive); margin:4.5mm 0 0;
   padding-bottom:1.6mm; border-bottom:.8pt solid var(--line); }
 .sec + p, .sec + .cols, .sec + .grp { margin-top:3mm; }
 h3.grp { font-size:13pt; font-weight:500; margin:3.5mm 0 1.5mm; }
 
-/* hazard bullets, two columns */
-.cols { column-count:2; column-gap:7mm; }
+/* hazard bullets: one group per column, so no bullet is split by a column
+   break and each heading sits at the top of its own column */
+.cols { display:grid; grid-template-columns:1fr 1fr; column-gap:7mm; align-items:start; }
+.cols > div > h3.grp:first-child { margin-top:0; }
 ul.haz { list-style:none; margin:0 0 1mm; padding:0; }
-ul.haz li { position:relative; padding:0 0 1.5mm 4mm; font-size:8.3pt; line-height:1.34; }
+ul.haz li { position:relative; padding:0 0 1.2mm 4mm; font-size:8.3pt; line-height:1.34; }
 ul.haz li::before { content:''; position:absolute; left:0; top:1.5mm; width:1.7mm;
   height:1.7mm; background:var(--olive); border-radius:50%; }
 
@@ -126,8 +128,8 @@ PAGE_1_CONDITIONS = 4
 
 def notice_page(logo, foot):
     groups = "".join(
-        f"<h3 class='grp'>{name}</h3><ul class='haz'>"
-        + "".join(f"<li>{h}</li>" for h in items) + "</ul>"
+        f"<div><h3 class='grp'>{name}</h3><ul class='haz'>"
+        + "".join(f"<li>{h}</li>" for h in items) + "</ul></div>"
         for name, items in C.HAZARD_GROUPS)
     first = C.CONDITIONS[:PAGE_1_CONDITIONS]
     return f"""<div class="page">
