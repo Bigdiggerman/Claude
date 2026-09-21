@@ -23,14 +23,20 @@ LICENCE = "Forestry Sales Limited, Licensed Agent REA Act 2008"
 AGENT = "Forestry Sales Limited (trading as Searle Forestry)"
 
 HAZARDS = (
-    "Trees, buildings, access tracks, Livestock, farm machinery and natural hazards, "
-    "Electric fences, Slippery ground surfaces, Uneven ground including steep slopes and "
-    "banks, Fruit on the ground (avocados, citrus, kiwifruit, etc.), Workers and "
-    "contractors, Stock yards and gates, Drains, ponds, streams, Trees, branches, sticks, "
-    "Orchard structures (wires, agbeam, posts, protruding nails, sharp objects, etc.), "
-    "Chemicals and fertilizers, Irrigation equipment and bores, Holes in the ground, "
-    "Animals (including dogs), Machinery (mowers, sprayers, graders, etc.), do not climb "
-    "on or operate machinery!"
+    "Active harvesting and silviculture operations, Felling, hung-up and wind-thrown "
+    "trees, falling branches, Hauler ropes, guy ropes and breaking-out areas, Skid sites "
+    "and landings, Log stacks, log trucks and logging traffic, Narrow one-lane forestry "
+    "roads, blind corners and RT-controlled roads, Slash, stumps, windrows and debris, "
+    "Cutover and recently planted land, Uneven ground including steep slopes, banks, "
+    "bluffs and slips, Slippery ground surfaces, Holes in the ground, old stumps and "
+    "tomos, Streams, culverts, fords and water crossings, Drains and ponds, Quarries, "
+    "metal pits and unfenced excavations, Fire risk in dry slash and cutover, Chemicals, "
+    "fertilisers and spray operations (ground and aerial), Electric fences, Livestock, "
+    "stock yards and gates, Animals (including dogs), hunters and firearms, Buildings, "
+    "disused structures, old wire rope and abandoned equipment, Workers and contractors, "
+    "Chainsaws and other hand-held equipment, Forestry machinery (harvesters, "
+    "fellerbunchers, skidders, haulers, loaders, excavators, bulldozers, graders, etc.), "
+    "do not approach, climb on or operate machinery!"
 )
 
 RULES = [
@@ -117,22 +123,22 @@ h1 { font-family:'Cormorant Garamond',Georgia,serif; font-weight:600; color:var(
 .mast.form h1 { font-size:25pt; line-height:1.06; }
 .rule { height:1.6pt; background:var(--olive); margin:5mm 0 0; }
 
-.intro { color:var(--olive); font-size:10.2pt; font-weight:300; line-height:1.5;
-  margin:6mm 0 0; }
-.intro + .intro { margin-top:3.5mm; }
-.comply { font-weight:600; font-size:9.4pt; color:var(--ink); margin:6mm 0 0;
+.intro { color:var(--olive); font-size:9.5pt; font-weight:300; line-height:1.45;
+  margin:5.5mm 0 0; }
+.intro + .intro { margin-top:3mm; }
+.comply { font-weight:600; font-size:9.2pt; color:var(--ink); margin:5mm 0 0;
   text-align:center; }
-.hr { height:.8pt; background:var(--line); margin:3.5mm 0 4mm; }
+.hr { height:.8pt; background:var(--line); margin:3mm 0 3.5mm; }
 
 /* numbered requirements */
 ol.rules { list-style:none; margin:0; padding:0; counter-reset:r; }
-ol.rules li { counter-increment:r; position:relative; padding:0 0 2.1mm 11mm;
-  font-size:8.7pt; line-height:1.4; }
+ol.rules li { counter-increment:r; position:relative; padding:0 0 1.8mm 11mm;
+  font-size:8.5pt; line-height:1.38; }
 ol.rules li::before { content:counter(r); position:absolute; left:0; top:.2mm;
   width:6.4mm; height:4.4mm; background:var(--olive); color:#fff; border-radius:1pt;
   font-size:6.6pt; font-weight:600; display:flex; align-items:center;
   justify-content:center; }
-.closing { font-size:8.7pt; margin:3mm 0 0; padding-left:11mm; }
+.closing { font-size:8.5pt; margin:2.5mm 0 0; padding-left:11mm; }
 
 /* form tables */
 .band { background:var(--olive); color:#fff; font-weight:600; font-size:9.2pt;
@@ -179,7 +185,7 @@ def page_one(logo):
   <div class="mast">{triangle()}<h1>Hazard Notice</h1></div>
   <div class="rule"></div>
   <p class="intro">This is a work place, and a number of hazards exist which cannot be
-    eliminated. Rural and forestry property hazards that may be encountered include but
+    eliminated. Forestry and rural property hazards that may be encountered include but
     are not limited to:</p>
   <p class="intro">{HAZARDS}</p>
   <p class="comply">To minimise the effect of hazards during your visit we ask that you
