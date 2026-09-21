@@ -131,7 +131,7 @@ CONDITIONS = [
     "and other soil-borne diseases.",
 
     "Livestock and animals.  Take care around all livestock, particularly bulls and stock "
-    "with young. Keep clear of working dogs. You must not bring your own pets onto a farm "
+    "with young. Keep clear of working dogs. You MUST not bring your own pets onto a farm "
     "without permission. Pet dogs can carry and spread diseases or parasites (such as sheep "
     "measles) to farm animals if they are not properly treated and vetted.",
 

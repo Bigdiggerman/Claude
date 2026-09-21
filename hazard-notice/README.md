@@ -7,21 +7,33 @@ together before entry (pages 3–4).
 
 | File | |
 |---|---|
-| `Hazard Notice and Visitor Register - Searle Forestry.pdf` | the document to print or email |
-| `content.py` | all wording — edit here |
-| `build.py` | layout; regenerates the HTML and PDF |
+| `Hazard Notice and Visitor Register - Searle Forestry.pdf` | the print master — send or print this |
+| `Hazard Notice and Visitor Register - Searle Forestry.docx` | Word version, for editing |
+| `content.py` | all wording — edit here, both versions read it |
+| `build.py` | PDF layout; regenerates the HTML and PDF |
+| `build_docx.js` | Word layout |
+| `export_content.py` | dumps `content.py` to `content.json` for the Word build |
 | `hazard_notice.html` | generated, self-contained (fonts and logo inlined) |
 | `assets/` | Searle Forestry logo, Cormorant Garamond + Inter web fonts |
 
 ## Rebuilding
 
 ```
-python3 build.py              # HTML + PDF
-python3 build.py --html-only  # HTML only
+python3 build.py                            # HTML + PDF
+python3 export_content.py && node build_docx.js   # Word
 ```
 
-Rendering the PDF needs Chrome, Chromium or Edge; `build.py` looks in the
-usual install locations.
+The PDF needs Chrome, Chromium or Edge; `build.py` looks in the usual install
+locations. The Word build needs Node and the `docx` package (`npm install
+docx`).
+
+Both read `content.py`, so the wording cannot drift between them. Edit the
+text there, never in the built files, and rebuild both.
+
+The Word version uses Cormorant Garamond and Inter by name. Word substitutes
+if they are not installed on the machine opening it, so the PDF stays the
+print master; the Word file is for editing and for anyone who needs to fill it
+in on screen.
 
 Pages are fixed A4 boxes, not reflowing text, so content does **not** move
 between them on its own. After editing `content.py`, rebuild and look at every

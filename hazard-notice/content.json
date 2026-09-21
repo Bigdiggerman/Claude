@@ -1,0 +1,168 @@
+{
+ "ACCOMPANYING_HEAD": [
+  "Name of each person accompanying you",
+  "Age if under 18",
+  "Has read the Hazard Notice"
+ ],
+ "ACCOMPANYING_ROWS": 4,
+ "ACKNOWLEDGEMENT": [
+  "I / we acknowledge that I / we have received a copy of the Hazard Notice, have read and understood it, and have received the pre-entry briefing recorded above. I / we are aware of our obligations under the Health and Safety at Work Act 2015 to comply with the direction of that notice and of the licensee, the vendor, and the forest manager or contractor in control of the site. I / we confirm that everyone in our party has read the Hazard Notice.",
+  "I / we voluntarily accept all the risks, known and unknown, of visiting and inspecting this property, and confirm we are physically able to do so safely and are appropriately equipped.",
+  "I / we indemnify the landowners, lessees, forest managers, contractors, and Forestry Sales Limited (trading as Searle Forestry) as licensees against all damage, loss and liability arising from my / our access to this property.",
+  "Nothing in this notice or acknowledgement limits or modifies any duty owed under the Health and Safety at Work Act 2015."
+ ],
+ "BRIEFING_HEAD": [
+  "Pre-entry briefing — completed before leaving the vehicle",
+  "Yes / No",
+  "Detail"
+ ],
+ "BRIEFING_ROWS": [
+  [
+   "Hazard Notice provided, and read by everyone in the party",
+   ""
+  ],
+  [
+   "Site-specific hazards explained and understood",
+   ""
+  ],
+  [
+   "Areas approved and no-go areas explained",
+   ""
+  ],
+  [
+   "PPE checked and correct",
+   "Vest / boots / hard hat"
+  ],
+  [
+   "Emergency information and meeting point provided",
+   ""
+  ],
+  [
+   "Supervision required",
+   "By whom:"
+  ],
+  [
+   "RT radio required",
+   "Channel:"
+  ],
+  [
+   "Biosecurity wash-down completed on entry",
+   ""
+  ],
+  [
+   "Check-out time agreed",
+   ""
+  ]
+ ],
+ "CLOSING": [
+  "Thank you for your attention to these matters. Enjoy your visit, and have a safe journey home.",
+  "Please ensure all visitors report to the salesperson on exiting the property."
+ ],
+ "CONDITIONS": [
+  "Entry by arrangement only.  You may enter only at the time arranged with Searle Forestry, and only in the areas agreed. Where harvesting or other operations are underway, entry is also subject to the permission and site induction of the forest manager or harvesting contractor in control of that site. We will arrange this for you.",
+  "You enter at your own risk.  You will not hold the landowner, the forest manager, the contractors on site, or Forestry Sales Limited (trading as Searle Forestry) or its licensees liable for any loss, harm or damage suffered.",
+  "Report in and report out.  Report to the salesperson on arrival, and again when you leave, to confirm that you and everyone with you are off the property. Agree a check-out time before you leave the vehicle. Cellphone coverage is often poor or absent. If we have not heard from you by the agreed time, we will treat you as missing and begin a search.",
+  "Never enter an active work area.  Do not enter any area where felling, breaking out, hauling, processing or loading is underway. Stay at least two tree lengths clear of any felling or hauler operation, and well clear of all ropes under tension. If a machine is working, do not approach it — wait until the operator has seen you, stopped the machine and signalled you in.",
+  "Personal protective equipment.  The minimum for any inspection is a high-visibility vest and sturdy boots with good grip. A hard hat is required in any harvesting or felling area. Wear whatever else the site or the induction requires. Tell us in advance if you do not have this gear.",
+  "Follow all instructions and signage.  Comply with all instructions given by Searle Forestry, the vendor, the forest manager, the harvesting contractor and their staff, and with all signage, hazard boards and gate notices. Our staff and the site controller may refuse entry to, or remove, any person who does not cooperate.",
+  "You are responsible for your party.  You are responsible for everyone who accompanies you. Children must be supervised by an adult at all times, and no person under 16 may enter an operational forestry area.",
+  "Vehicles.  Any vehicle you bring must hold a current WoF, be in good working order and be suitable for the conditions. You must hold a current driver licence and have sufficient training and experience for the vehicle and the terrain. Four wheel drive should be engaged while on the property. Keep to formed roads and obvious tracks. Do not venture off the track under any circumstances — steep sidings, bluffs, soft fill and holes can cause serious injury.",
+  "Forest roads and log trucks.  Drive with headlights on at all times. Give way to loaded log trucks and all heavy vehicles. Roads are typically one lane — pull over to the cut face (inside) where you can, never onto the outside edge. Where the forest operates RT road call-ups you must carry a radio on the correct channel or be escorted. Never park on a road, a corner, a landing or a skid site.",
+  "Speed.  Keep below 30 km/h, and slower on narrow roads or in the wet. Be courteous at all times.",
+  "ATVs and side-by-sides.  Operate strictly in accordance with the manufacturer’s instructions and the Agriculture Guideline — Safe Use of ATVs on New Zealand Farms. Helmets must be worn.",
+  "Wind and weather.  Do not enter standing forest in strong wind — limbs and whole trees come down. Tracks may be impassable or slippery during and after rain. We may postpone or cancel an inspection on safety grounds at any time.",
+  "Fire.  Smoking, open flame and the setting of fires are prohibited in all buildings and anywhere on the property. Do not drive or park on long dry grass or slash — vehicle exhausts and catalytic converters start fires. Observe the current fire season status and any Fire and Emergency New Zealand restrictions advised to you.",
+  "Biosecurity.  Arrive with clean boots, tyres and vehicle, free of soil, seed and plant material. Complete any wash-down, spray or hygiene station requirement on arrival and on departure. This includes kauri dieback controls, myrtle rust, wilding conifer seed and other soil-borne diseases.",
+  "Livestock and animals.  Take care around all livestock, particularly bulls and stock with young. Keep clear of working dogs. You MUST not bring your own pets onto a farm without permission. Pet dogs can carry and spread diseases or parasites (such as sheep measles) to farm animals if they are not properly treated and vetted.",
+  "Gates and fences.  Leave all gates and fences exactly as you find them. Treat every fence as electric and live.",
+  "Pest control and toxic baits.  Traps and toxic baits, including 1080 and cyanide, may be in use. Do not touch or handle bait, bait stations or carcasses. Keep dogs in the vehicle — bait and carcasses are lethal to dogs.",
+  "Drones.  No drone may be flown without the prior written consent of Searle Forestry and the landowner or forest manager. Any flight must comply with Civil Aviation Rules Part 101, and must not take place over or near any active operation or aerial work.",
+  "Firearms and hunting.  Firearms must not be brought onto the property, and no hunting or shooting is permitted. Be aware that permitted hunting by others may be in progress.",
+  "Drugs and alcohol.  Zero tolerance. Do not enter the property under the influence of alcohol, drugs, or any medication that may impair you.",
+  "No trespass.  Do not go onto neighbouring land at any time.",
+  "Damage.  Use best endeavours not to cause damage to the property. If any damage does occur, notify the salesperson or the vendor immediately.",
+  "Water.  Do not drink water from taps, tanks or streams unless you are advised it is safe.",
+  "Report incidents.  Report any injury, near miss, damage or unsafe condition to your Searle Forestry salesperson immediately, however minor it seems."
+ ],
+ "CONDITIONS_INTRO": "To minimise the effect of these hazards during your visit, we ask that you comply with the following.",
+ "EMERGENCY": [
+  "Call 111. Give the property name, the physical / RAPID address, and the GPS coordinates or what3words for the emergency meeting point — all recorded on the Visitor Register overleaf.",
+  "Then call your Searle Forestry salesperson on the mobile number recorded overleaf, and the forest manager or contractor on site.",
+  "The emergency meeting point, the first aid and fire extinguisher location, and the nearest medical facility will be given to you at the pre-entry briefing and recorded on the Visitor Register."
+ ],
+ "HAZARD_GROUPS": [
+  [
+   "Forest and harvesting",
+   [
+    "Active harvesting, felling, thinning, pruning, processing and log loading operations",
+    "Moving machinery — haulers, skidders, excavators, loaders, processors, bulldozers, log trucks",
+    "Ropes, strops and wire rope under tension, and anything they may strike",
+    "Falling, hung-up, wind-thrown and dead standing trees; falling limbs and debris",
+    "Cutover ground — stumps, slash piles, hidden holes, buried rope, strops and broken wire",
+    "Skid sites, landings and log stacks; do not climb on or stand near a log stack",
+    "Forest roads — narrow, one lane, blind corners, steep grades, drop-offs and soft fill",
+    "Earthworks, fill batters, slips, unconsolidated new roading and unfenced edges",
+    "Aerial operations — helicopters and fixed wing used for spraying, fertiliser and logging",
+    "Forestry chemicals and spray, fuel and oil storage",
+    "Pest control — traps, and toxic baits including 1080 and cyanide",
+    "Fire"
+   ]
+  ],
+  [
+   "Farm, grazing and general rural",
+   [
+    "Livestock, including bulls, rams and stock with young; working dogs",
+    "Farm machinery and implements — do not climb on or operate any machinery",
+    "Electric fences — treat every fence as live",
+    "Stock yards, races, gates and loading ramps",
+    "Drains, ponds, streams, troughs, effluent ponds, offal holes, wells and bores",
+    "Steep slopes, banks, bluffs, slips, and slippery or uneven ground",
+    "Holes in the ground and concealed obstacles in long grass",
+    "Chemicals, fertiliser and agrichemical storage",
+    "Irrigation equipment and water races",
+    "Buildings, sheds, yards and derelict structures",
+    "Workers, contractors and other visitors",
+    "Weather — wind, rain, heat and cold; limited or no cellphone coverage"
+   ]
+  ]
+ ],
+ "INTRO": [
+  "This property is a workplace under the Health and Safety at Work Act 2015. It is a working forest and/or farm, and a number of hazards exist that cannot be eliminated. Before you go onto the property, read this notice in full, make sure everyone in your party has read it, and complete the Inspection Acknowledgement and Visitor Register overleaf with your Searle Forestry salesperson.",
+  "If anything in this notice is unclear, or you have any concern about your safety at any time during the visit, tell the salesperson immediately."
+ ],
+ "LICENCE": "Forestry Sales Limited trading as Searle Forestry · Licensed Agent REA Act 2008 · searleforestry.co.nz",
+ "REGISTER_LEAD": "To be completed with the Searle Forestry salesperson before entering the property.",
+ "REGISTER_TITLE": "Inspection Acknowledgement and Visitor Register",
+ "SIGNATURES": [
+  "Visitor signature and date",
+  "Searle Forestry representative and date"
+ ],
+ "SITE_FIELDS": [
+  "Property name",
+  "Physical / RAPID address",
+  "Emergency meeting point (GPS or what3words)",
+  "Searle Forestry salesperson",
+  "Salesperson mobile",
+  "Forest manager / contractor on site",
+  "Contractor phone / RT channel",
+  "Nearest medical facility",
+  "Current fire season status",
+  "Wash-down required on entry / exit",
+  "Areas approved for this visit",
+  "No-go areas"
+ ],
+ "SUBTITLE": "Forestry and farmland properties",
+ "TITLE": "Property Inspection Hazard Notice",
+ "VISITOR_FIELDS": [
+  "Name",
+  "Company",
+  "Address",
+  "Email",
+  "Phone",
+  "Vehicle registration",
+  "Date",
+  "Time in",
+  "Agreed check-out time",
+  "Time out (confirmed off property)"
+ ]
+}
