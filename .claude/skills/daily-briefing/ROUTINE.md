@@ -13,6 +13,7 @@ Claude Code Remote **Routine** (scheduled trigger).
 | **Mode** | Fresh session per firing |
 | **Connectors** | Microsoft 365 (Outlook calendar + mail) |
 | **Notification** | Push to phone on completion |
+| **Trigger ID** | `trig_01431fy95Fm1NumYcevtwSSj` |
 
 Cron is evaluated in UTC, so 07:00 NZT falls on the **previous** UTC day — hence day-of-week
 `0-4` (Sun–Thu) rather than `1-5`.
@@ -34,6 +35,27 @@ Upcoming transitions:
 
 Use `update_trigger` with the new `cron_expression` — do not delete and recreate the routine,
 as that loses its run history.
+
+A one-shot routine (`trig_01WD4KRGLGuuxoYX6G4C3Y6u`, fires 2026-09-25 21:00 UTC) performs the
+2026-09-27 flip automatically and then disables itself. Later transitions are manual unless a
+new one-shot is created each time.
+
+## Outstanding: connectors are not attached
+
+`create_trigger` returned:
+
+> this trigger stores no MCP connectors, so the sessions it fires will run without connector
+> (mcp__<server>__*) tools
+
+Routines created through the meta-MCP tool can only pass through connector grants the calling
+session itself holds, and this session had none to pass. **Until Microsoft 365 is attached to
+the routine, sections 1 and 2 (calendar and email) will fail at every firing** — the fired
+session will have no `outlook_calendar_search` or `outlook_email_search`. Sections 3–5 (log
+prices, carbon price, news) run on `WebSearch` and are unaffected.
+
+Fix: open the routine at claude.ai → Routines → "Daily Briefing — forestry, logs & carbon" and
+add the **Microsoft 365** connector. The existing "Property Enquiry" routine was created
+through that UI and carries its connectors correctly, which is why it works.
 
 ## Known environment constraint
 
