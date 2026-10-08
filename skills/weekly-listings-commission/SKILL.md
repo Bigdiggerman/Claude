@@ -28,7 +28,7 @@ a JSON state (`data.json`) so formatting, formulas and totals are always right. 
 | Summary email to | warwick@forestrysales.co.nz (only recipient) |
 | Default fee | 4% on first $500k, 2.5% on balance, min $10,000, all + GST; James 15%, George 0%, Searle share 100% |
 | Price rule | contract price if under contract; otherwise midpoint of the agency agreement's appraisal range, cell marked yellow |
-| Cadence | Sundays 6:57 am NZ via the cloud Routine in `references/routine.md` |
+| Cadence | Sundays 6:57 am NZ via a cloud Routine created on the claude.ai Routines page (`references/routine.md`) |
 
 ## Prerequisites (check every run)
 
@@ -175,5 +175,6 @@ steps — do Steps 1, 4, 5 (or just `commission`) and 7, then report in chat ins
 
 ## Setting up / changing the schedule
 
-Use the cloud Routine in `references/routine.md` (device-independent). A Cowork desktop scheduled task would only
-run while that computer is awake — avoid it for this job.
+Use a cloud Routine created from the claude.ai Routines page with this skill and the Microsoft 365 connector
+selected — settings and prompt in `references/routine.md`. A Routine created from inside a session gets no
+connectors, and a Cowork desktop scheduled task only runs while that computer is awake; avoid both for this job.
